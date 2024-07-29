@@ -1,0 +1,535 @@
+#meio{
+    background-color: white;
+    width: 100%;
+    height: 1430px;
+    display: flex;
+    justify-content: center;
+}
+#meiocentralizar{
+    height: 100%;
+    width: 95%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+}
+#facture{
+    height: 120px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.factura{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.generosss{
+    height: 30px;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+#feactt{
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+.btnggg{
+    border: none;
+    background-color: transparent;
+}
+.escog{
+    color: black;
+}
+.escog:focus{
+    color: #fd332f;
+}
+
+#shoes{
+    margin-top: 20px;
+    width: 100%;
+    height: 410px;
+    /* background-color: #fd332f; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.caxshoes{
+    height: 390px;
+    width: 248px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caxshoes:hover{
+    box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+.btncomss{
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.espbtn{
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    width: 85%;
+    gap: 2px;
+}
+.marccom{
+    height: 100%;
+    width: 27px;
+    background-color: #fd332f;
+    border: none;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    transition: all .3s;
+}
+.caxshoes:hover .marccom{
+    opacity: 1;
+}
+.marcvist{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    transition: all .3s;
+}
+.caxshoes:hover .marcvist{
+    opacity: 1;
+}
+#icocom{
+    font-size: 17px;
+}
+
+.apresenpr{
+    height: 330px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.partimgshoes{
+    height: 90px;
+    width: 100%;
+    /* background-color: rgb(24, 31, 31); */
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgshoes{
+    width: 190px;
+    height: 210px;
+}
+
+.imfoshoes{
+    height: 100px;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgshoes{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.parnooo{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+.nomeshoes{
+    margin: 0;
+    padding: 0;
+}
+.parnooo::after{
+    content: " ";
+    position: absolute;
+    border-radius: 5px;
+    background-color: black;
+    display: block;
+    width: 35px;
+    height: 3px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.presshoes{
+    color: #fd332f;
+    margin-top: 15px;
+}
+
+#roupas{
+    width: 100%;
+    height: 460px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#roupesq{
+    height: 450px;
+    width: 772px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    /* padding-right: 20px; */
+}
+#roupesq:hover{
+    box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+#letreiroo{
+    height: 90%;
+    width: 370px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textletre{
+    height: 200px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    position: relative;
+}
+.txxxx{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.textletre::after{
+    content: " ";
+    position: absolute;
+    border-radius: 5px;
+    background-color: black;
+    display: block;
+    width: 35px;
+    height: 3px;
+    top: 100%;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+}
+.btnletre{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 30px;
+}
+.btnshop{
+    border: none;
+    background-color: #fd332f;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+
+#imfroupa{
+    height: 90%;
+    width: 340px;
+    /* background-color: blue;  */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.btnre{
+    width: 40px;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+}
+.btnav{
+    width: 40px;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+}
+.btndirecc{
+    border: none;
+    background-color: rgba(179, 179, 179, 0.716);
+    height: 35px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+}
+.btndirecc:hover{
+    background-color: #fd332f;
+    color: white;
+}
+.rouppp{
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.esparoup{
+    height: 300px;
+    width: 97%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.camisasimg{
+    height: 300px;
+    width: 300px;
+}
+.espaimf{
+    height: 100px;
+    width: 97%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imtex{
+    font-size: 20px;
+}
+.presscami{
+    color: red;
+}
+
+#roupdir{
+    height: 450px;
+    width: 508px;
+    background-color: white;
+    transition: all .3s;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#roupdir:hover{
+    box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+.texskate{
+    height: 90%;
+    width: 250px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.partskate{
+    height: 90%;
+    width: 250px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+.skatebord{
+    height: 100%;
+    width: 100%;
+}
+
+#propaganda{
+    width: 100%;
+    height: 410px;
+    /* background-color: #fd332f; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#propaft{
+    width: 772px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fototoo{
+    height: 100%;
+    width: 248px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    transition: all .3s;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.fototoo:hover{
+    box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+.fotooce{
+    width: 95%;
+    height: 95%;
+    /* background-color: #fd332f; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.estremos{
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.areee{
+    height: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+.nunff{
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+.btnheart{
+    border: none;
+    background-color: transparent;
+    color: rgb(88, 88, 88);
+    padding: 2px;
+    transition: all .3s;
+}
+.fototoo:hover .btnheart{
+    color: #fd332f;
+}
+.esemos{
+    height: 20px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.nuiten{
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+}
+.localff{
+    height: 250px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cimapropa{
+    width: 100%;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imfpaig::after{
+    content: " ";
+    position: absolute;
+    border-radius: 7px;
+    background-color: black;
+    display: block;
+    width: 25px;
+    height: 3px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.parimpaig{
+    width: 100%;
+    height: 140px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotoocoisa{
+    height: 100%;
+    width: 70%;
+}
+.imfpaig{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    /* background-color: hotpink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vvbb{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.vermais{
+    width: 100%;
+    height: 30px;
+    /* background-color: #fd332f; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* align-items: center; */
+}
+.seeee{
+    font-size: 15px;
+    color: red;
+}
+
+
+#propashoes{
+    width: 508px;
+    height: 400px;
+    background-color: white;
+    transition: all .3s;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#propashoes:hover{
+    box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+.skaebord{
+    height: 350px;
+    width: 180px;
+    /* object-fit: cover; */
+}
